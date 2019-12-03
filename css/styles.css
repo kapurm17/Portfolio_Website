@@ -1,3 +1,5 @@
+/************************ TAG SELECTORS ***********************/
+
 body {background-color: #ecfcff;}
 
 hr {border-color: grey;
@@ -20,10 +22,21 @@ h1{
   color: #dfddc7;
 }
 
-img {
+img:hover{
+  opacity: 0.2;
+}
+
+/******************** CLASS SELECTORS ******************************/
+
+.profile{
   height: 10%;
   width: 20%;
   border-radius: 170px;
   opacity: 0.85;
   margin-left: 40%;
 }
+
+
+
+
+/******************** ID SELECTORS ********************************/
